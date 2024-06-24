@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hidden-scrollbar::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+  
+  /* Hide scrollbar for Firefox */
+  .hidden-scrollbar {
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  /* Hide scrollbar for Internet Explorer and Edge */
+  .hidden-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+
+  .svg-color {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(304deg) brightness(104%) contrast(102%);
+  }
+
+  body {
+    --tw-bg-opacity: 1;
+    background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+  }
+
+  .sign-btn {
+    right: 0.5rem;
+    top: -0.4rem;
+  }
+  
